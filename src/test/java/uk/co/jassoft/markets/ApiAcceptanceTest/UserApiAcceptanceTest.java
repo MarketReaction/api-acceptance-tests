@@ -1,8 +1,8 @@
-package com.jassoft.markets.ApiAcceptanceTest;
+package uk.co.jassoft.markets.ApiAcceptanceTest;
 
-import com.jassoft.markets.client.UserClient;
-import com.jassoft.markets.client.exception.ApiClientException;
-import com.jassoft.markets.datamodel.user.Users;
+import uk.co.jassoft.markets.client.UserClient;
+import uk.co.jassoft.markets.client.exception.ApiClientException;
+import uk.co.jassoft.markets.datamodel.user.Users;
 import org.junit.Assert;
 import org.junit.Test;
 

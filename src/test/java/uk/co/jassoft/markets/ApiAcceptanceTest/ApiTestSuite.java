@@ -1,4 +1,4 @@
-package com.jassoft.markets.ApiAcceptanceTest;
+package uk.co.jassoft.markets.ApiAcceptanceTest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

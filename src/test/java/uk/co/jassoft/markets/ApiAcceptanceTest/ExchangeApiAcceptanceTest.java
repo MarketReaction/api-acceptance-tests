@@ -1,10 +1,10 @@
-package com.jassoft.markets.ApiAcceptanceTest;
+package uk.co.jassoft.markets.ApiAcceptanceTest;
 
-import com.jassoft.markets.client.CompanyClient;
-import com.jassoft.markets.client.ExchangeClient;
-import com.jassoft.markets.client.exception.ApiClientException;
-import com.jassoft.markets.datamodel.company.Exchange;
-import com.jassoft.markets.datamodel.company.Exchanges;
+import uk.co.jassoft.markets.client.CompanyClient;
+import uk.co.jassoft.markets.client.ExchangeClient;
+import uk.co.jassoft.markets.client.exception.ApiClientException;
+import uk.co.jassoft.markets.datamodel.company.Exchange;
+import uk.co.jassoft.markets.datamodel.company.Exchanges;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

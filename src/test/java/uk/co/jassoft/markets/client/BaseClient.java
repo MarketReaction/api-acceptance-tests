@@ -1,6 +1,6 @@
-package com.jassoft.markets.client;
+package uk.co.jassoft.markets.client;
 
-import com.jassoft.markets.client.exception.ApiClientException;
+import uk.co.jassoft.markets.client.exception.ApiClientException;
 import com.jayway.restassured.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

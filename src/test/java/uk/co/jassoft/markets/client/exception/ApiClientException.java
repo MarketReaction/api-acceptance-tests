@@ -1,4 +1,4 @@
-package com.jassoft.markets.client.exception;
+package uk.co.jassoft.markets.client.exception;
 
 /**
  * Created by jonshaw on 11/05/2016.

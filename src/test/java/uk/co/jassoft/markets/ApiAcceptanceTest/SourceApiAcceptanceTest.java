@@ -1,10 +1,10 @@
-package com.jassoft.markets.ApiAcceptanceTest;
+package uk.co.jassoft.markets.ApiAcceptanceTest;
 
-import com.jassoft.markets.client.SourceClient;
-import com.jassoft.markets.client.StoryClient;
-import com.jassoft.markets.client.exception.ApiClientException;
-import com.jassoft.markets.datamodel.sources.Source;
-import com.jassoft.markets.datamodel.story.Stories;
+import uk.co.jassoft.markets.client.SourceClient;
+import uk.co.jassoft.markets.client.StoryClient;
+import uk.co.jassoft.markets.client.exception.ApiClientException;
+import uk.co.jassoft.markets.datamodel.sources.Source;
+import uk.co.jassoft.markets.datamodel.story.Stories;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;

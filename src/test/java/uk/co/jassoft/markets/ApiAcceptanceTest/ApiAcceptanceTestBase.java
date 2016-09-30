@@ -1,6 +1,6 @@
-package com.jassoft.markets.ApiAcceptanceTest;
+package uk.co.jassoft.markets.ApiAcceptanceTest;
 
-import com.jassoft.markets.client.SystemClient;
+import uk.co.jassoft.markets.client.SystemClient;
 import org.junit.BeforeClass;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,9 +1,9 @@
-package com.jassoft.markets.client;
+package uk.co.jassoft.markets.client;
 
-import com.jassoft.markets.client.exception.ApiClientException;
-import com.jassoft.markets.datamodel.user.User;
-import com.jassoft.markets.datamodel.user.UserBuilder;
-import com.jassoft.markets.datamodel.user.Users;
+import uk.co.jassoft.markets.client.exception.ApiClientException;
+import uk.co.jassoft.markets.datamodel.user.User;
+import uk.co.jassoft.markets.datamodel.user.UserBuilder;
+import uk.co.jassoft.markets.datamodel.user.Users;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.internal.mapper.ObjectMapperType;
 import com.jayway.restassured.response.Response;
