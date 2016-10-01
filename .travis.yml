@@ -9,6 +9,8 @@ services:
 script:
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - mvn clean install docker:build -DskipTests -Pdefault,docker
+  - mvn deploy -DskipTests -Pdocker
 
 after_success:
-  - mvn deploy -DskipTests -Pdocker
+  - docker tag marketreaction/api-acceptance-tests:$TRAVIS_BUILD_NUMBER marketreaction/api-acceptance-tests:latest
+  - docker push marketreaction/api-acceptance-tests:latest
